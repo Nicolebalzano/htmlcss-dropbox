@@ -110,6 +110,7 @@ background-color: #ffff00;
 }
 .plans-section {
     padding-top: 50px;
+    padding-bottom: 40px;
     /* debug */
     background-color: #252563;
 }
@@ -120,7 +121,7 @@ background-color: #ffff00;
 }
 .radio-button {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     /* debug */
     background-color: #61617e;
 }
@@ -139,5 +140,14 @@ background-color: #ffff00;
     /* debug */
     min-height: 200px;
     background-color: #705e5e;
+}
+.find-a-partner {
+    /* debug */
+    background-color:#ffff00 ;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 /* FOOTER */
