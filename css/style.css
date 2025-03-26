@@ -11,11 +11,15 @@ img{
 /* COMMON */
 /* Layout */
 .container-big {
-    width: 90%;
+    width: 80%;
     max-width: 1020px;
     margin: 0 auto;
 }
-
+.container-small {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /* HEADER */
 .header-sections {
     display: flex;
@@ -103,5 +107,27 @@ background-color: #ffff00;
     /* debug */
     background-color: #8a2be2;
     min-height:200px ;
+}
+.plans-section {
+    padding-top: 50px;
+    /* debug */
+    background-color: #252563;
+}
+.plans-title {
+     /* debug */
+     background-color: #7fffd4;
+     min-height: 80px;
+}
+.radio-button {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* debug */
+    background-color: #61617e;
+}
+.col-plans {
+    display: flex;
+}
+.ul-plans li{
+    list-style: none;
 }
 /* FOOTER */
