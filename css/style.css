@@ -171,4 +171,11 @@ background-color: #ffff00;
     background-color: #7e7eb4;
     min-height: 30px;
 }
+.dropbox-user {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    /* debug */
+    background-color: #008000;
+    min-height: 200px;
+}
 /* FOOTER */
