@@ -126,8 +126,18 @@ background-color: #ffff00;
 }
 .col-plans {
     display: flex;
+    justify-content: center;
 }
 .ul-plans li{
     list-style: none;
+}
+.enterprise {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* debug */
+    min-height: 200px;
+    background-color: #705e5e;
 }
 /* FOOTER */
