@@ -9,6 +9,10 @@ img{
     max-width: 100%;
 }
 /* COMMON */
+/* Utility */
+.margin-b10 {
+    margin-bottom: 10px;
+}
 /* Layout */
 .container-big {
     width: 80%;
@@ -157,7 +161,6 @@ background-color: #ffff00;
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
-    gap: 10px;
 }
 .dropbox-business {
     padding-top: 50px;
