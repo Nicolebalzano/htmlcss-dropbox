@@ -96,7 +96,7 @@ background-color: #ffff00;
     padding: 10px;
 }
 .col-30 {
-    width: 30%;
+    width:30%;
     margin-right: 10px;
     /* debug */
  background-color: #c15a5a;
@@ -142,6 +142,8 @@ background-color: #ffff00;
     background-color: #705e5e;
 }
 .find-a-partner {
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* debug */
     background-color:#ffff00 ;
 }
@@ -149,5 +151,24 @@ background-color: #ffff00;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.dropbox-business {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* debug */
+    background-color:#d1d19a ;
+}
+.dropbox-business-title {
+    margin-bottom: 20px;
+    /* debug */
+    background-color: #7e7eb4;
+    min-height: 30px;
 }
 /* FOOTER */
