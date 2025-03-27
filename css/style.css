@@ -55,6 +55,9 @@ img {
 .col-70 {
     width: 70%;
 }
+.col-80 {
+    width: 80%;
+}
 
 /* HEADER */
 .header-sections {
@@ -163,7 +166,7 @@ label {
 }
 .col-plans {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .ul-plans li {
     list-style: none;
@@ -210,7 +213,6 @@ label {
 }
 .card-second-section {
     margin-top: 30px;
-    margin-bottom:100px;
 }
 .divider {
   margin-top: 30px;
@@ -222,7 +224,20 @@ label {
     justify-content: space-between;
     margin-bottom: 50px;
 }
-
+.enterprise-section {
+    border: 1px solid #d3d3d3;
+    margin-top: 30px;
+}
+.enterprise a {
+    text-decoration: none;
+}
+.btn-enterprise {
+    background-color: #0061FE;
+ width: 70%;
+ padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 /* find a partner */
 .find-a-partner {
     padding-top: 50px;
