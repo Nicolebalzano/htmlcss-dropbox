@@ -29,6 +29,10 @@ img {
 .font-white {
     color: #fff;
 }
+.padding-x {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 /* Layout */
 .container-big {
     width: 80%;
@@ -110,7 +114,7 @@ background-color: #B4D0E6;
 .hero-content {
     display: flex;
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 70px;
     flex-wrap: wrap;
 }
 .col-30 a {
@@ -123,55 +127,103 @@ background-color: #B4D0E6;
         margin-top: 20px;
         margin-bottom: 30px;
     }
-.hero-image {
-    position: relative;
-    top: 120px;
-}
 .arrow-down {
     font-size: 48px;
 }
 .arrow-down a {
     color: black;
 }
+
+/* Business plan */
 .plans-section {
     padding-top: 50px;
     padding-bottom: 40px;
-    /* debug */
-    background-color: #252563;
 }
-
+.plans-content {
+    border: 1px solid #d3d3d3;
+}
+.plans-type{
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    padding: 10px;
+}
 .plans-title {
-    /* debug */
-    background-color: #7fffd4;
-    min-height: 80px;
+    font-size: 2rem;
 }
-
+.plans-subtitle {
+    padding: 20px 15px;
+    font-size: 1.3em;
+}
 .radio-button {
     padding-top: 40px;
     padding-bottom: 50px;
-    /* debug */
-    background-color: #61617e;
 }
-
+label {
+    padding-right: 30px;
+}
 .col-plans {
     display: flex;
     justify-content: center;
 }
-
 .ul-plans li {
     list-style: none;
 }
-
+.card-list {
+    display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+}
+.price {
+    padding-left: 20px;
+}
+.btn-card {
+    background-color: #0061FE;
+    padding: 15px 20px;
+    margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 80%;
+}
+.small-gray-text {
+    font-size: 12px;
+    color: lightgray;
+    padding-left: 20px;
+}
+.buy-now {
+    padding-left: 20px;
+}
+.buy-now a {
+    color: #0061FE;
+    text-decoration: underline;
+}
+.checked {
+    color:#0061FE;
+} 
+.p-card {
+    margin-left: 10px;
+}
+.margin-right {
+    margin-left: 10px;
+}
+.card-second-section {
+    margin-top: 30px;
+    margin-bottom:100px;
+}
+.divider {
+  margin-top: 30px;
+  width: 30%;
+}
 .enterprise {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
-    /* debug */
-    min-height: 200px;
-    background-color: #705e5e;
 }
 
+/* find a partner */
 .find-a-partner {
     padding-top: 50px;
     padding-bottom: 50px;
