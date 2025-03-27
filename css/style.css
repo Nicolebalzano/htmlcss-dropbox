@@ -51,7 +51,12 @@ img {
 .col-30 {
     width: 30%;
 }
-
+.col-40 {
+    width: 40%;
+}
+.col-60 {
+    width: 60%;
+}
 .col-70 {
     width: 70%;
 }
@@ -167,6 +172,7 @@ label {
 .col-plans {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
 }
 .ul-plans li {
     list-style: none;
@@ -230,20 +236,31 @@ label {
 }
 .enterprise a {
     text-decoration: none;
+    display: inline-block;
 }
 .btn-enterprise {
     background-color: #0061FE;
- width: 70%;
- padding: 10px 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+ width: 90%;
+ padding: 10px 30px;
+    text-align: center;
+}
+.enterprise h3{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+.enterprise h5 {
+    margin-bottom: 50px;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+.enterprise p {
+    margin-left: 30px;
 }
 /* find a partner */
 .find-a-partner {
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 50px;
-    /* debug */
-    background-color: #ffff00;
 }
 
 .flex {
@@ -251,34 +268,40 @@ label {
     justify-content: space-between;
     padding: 10px;
 }
-
+.flex h2 {
+    padding: 20px;
+}
+.flex p {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
 .flex-wrap {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
 }
-
+.flex a {
+    text-decoration: none;
+}
+.partner-btn {
+    border: 1px solid rgb(82, 77, 77);
+    padding: 10px 20px;
+    color: rgb(46, 43, 43);
+    margin-left: 20px;
+}
 .dropbox-business {
     padding-top: 50px;
     padding-bottom: 50px;
-    /* debug */
-    background-color: #d1d19a;
 }
 
 .dropbox-business-title {
     margin-bottom: 20px;
-    /* debug */
-    background-color: #7e7eb4;
-    min-height: 30px;
 }
 
 .dropbox-user {
     margin-top: 30px;
     margin-bottom: 40px;
-    /* debug */
-    background-color: #008000;
-    min-height: 200px;
 }
 
 /* FOOTER */
