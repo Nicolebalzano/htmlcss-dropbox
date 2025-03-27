@@ -280,6 +280,12 @@ label {
     padding-left: 20px;
     padding-bottom: 50px;
 }
+.flex-partner h3 {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-size: 1.4rem;
+    line-height: 35px;
+}
 .flex-wrap {
     display: flex;
     justify-content: space-between;
@@ -359,12 +365,20 @@ color: #0061FE;
 
 .language {
     display: flex;
-    flex-direction: row;
     width: 20%;
+    padding-bottom: 40px;
 }
 
 .line-brake {
     border: 1px solid rgb(171, 170, 170);
     margin-bottom: 30px;
     width: 20%;
+}
+.italian {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.font-dark-white {
+    color: #eef2e0;
 }
