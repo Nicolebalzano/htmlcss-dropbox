@@ -313,9 +313,16 @@ label {
 }
 .dropbox-user {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
 }
-
+.dropbox-user-title {
+    font-size: 1.7rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.dropbox-user a{
+color: #0061FE;
+}
 /* FOOTER */
 .background-dark {
     background-color: #252222;
