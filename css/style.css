@@ -15,8 +15,8 @@ img {
 
 /* COMMON */
 /* Utility */
-.margin-b10 {
-    margin-bottom: 10px;
+.margin-b40 {
+    margin-bottom: 40px;
 }
 .margin-x {
     margin-left: 20px;
@@ -32,6 +32,11 @@ img {
 .padding-x {
     padding-left: 20px;
     padding-right: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 /* Layout */
 .container-big {
@@ -263,15 +268,15 @@ label {
     padding-bottom: 50px;
 }
 
-.flex {
+.flex-partner {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-.flex h2 {
+.flex-partner h2 {
     padding: 20px;
 }
-.flex p {
+.flex-partner p {
     padding-left: 20px;
     padding-bottom: 50px;
 }
@@ -281,7 +286,7 @@ label {
     padding: 10px;
     flex-wrap: wrap;
 }
-.flex a {
+.flex-partner a {
     text-decoration: none;
 }
 .partner-btn {
@@ -297,8 +302,15 @@ label {
 
 .dropbox-business-title {
     margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 70px;
 }
-
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 750;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .dropbox-user {
     margin-top: 30px;
     margin-bottom: 40px;
