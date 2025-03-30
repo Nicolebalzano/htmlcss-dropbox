@@ -55,7 +55,6 @@
         <!-- Hero -->
         <div class="background-hero">
             <div class="container-big">
-
                 <h1 class="hero-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="hero-content">
                     <div class="col-30">
@@ -64,10 +63,10 @@
                             e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <div><a href="#" class="btn-hero font-white">Inizia la tua prova gratuita</a></div>
                         <span>Annulla in qualsiasi momento</span>
+                        <span class="arrow-down"><a href="#"><i class="fa-solid fa-arrow-down"></i></a></span>
                     </div>
 
                     <div class="col-70"><img src="./img/jumbo.png" alt="schermo dropbox" class="hero-image"></div>
-                    <span class="arrow-down"><a href="#"><i class="fa-solid fa-arrow-down"></i></a></span>
                 </div>
             </div>
         </div>
@@ -79,15 +78,16 @@
 
                 <h2 class="plans-title">Trova il piano business che fa per te</h2>
                 <div class="radio-button">
-                   <input type="radio">Fatturazione mensile
-                  <input type="radio">Fatturazione annuale
+                   <input type="radio" name="option">Fatturazione mensile
+                  <input type="radio" name="option">Fatturazione annuale
                 </div>
                 <div class="col-plans">
                     <!-- First col -->
-                    <div class="col-30">
-                        <div class="plans-content">
+                    <div class="col-30-list">
                             <div class="plans-type"><i class="fa-solid fa-user"></i> Singolo
                             </div>
+                            <div class="plans-content">
+                                <div class="plans-body">
                             <h3 class="plans-subtitle padding-x">Professional</h3>
                             <span class="price padding-x"><strong>12.00&euro;</strong></span><br>
                             <span class="small-gray-text padding-x">/mese</span>
@@ -119,11 +119,12 @@
                             </div>
                             </div>
                         </div>
+                        </div>
                     </div>
                     <!-- /First col -->
 
                     <!-- Second col -->
-                    <div class="col-30">
+                    <div class="col-30-list">
                         <div class="plans-content">
                             <div class="plans-type"><i class="fa-solid fa-user"></i> Team
                             </div>
@@ -171,7 +172,7 @@
                     <!-- /Second col -->
 
                     <!-- Thrid col -->
-                    <div class="col-30">
+                    <div class="col-30-list">
                         <div class="plans-content">
                             <div class="plans-type"><i class="fa-solid fa-building"></i> Azienda
                             </div>
